@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Proyecto innect 
+          Proyecto innect primer clase
         </p>
         <a
           className="App-link"
