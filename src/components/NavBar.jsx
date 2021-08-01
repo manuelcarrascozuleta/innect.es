@@ -2,6 +2,7 @@ import React from "react"
 import { AppBar, Toolbar, Typography, makeStyles, IconButton, Button} from "@material-ui/core"
 import MenuIcon from "@material-ui/icons/Menu"
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import CartWidget from "./CartWidget";
 
 
 
@@ -40,9 +41,7 @@ function NavBar() {
                     <Button variant="text" color="inherit" className={classes.margin}>
                         Contacto
                     </Button>
-                    <Button variant="contained" color="primary" > 
-                        <ShoppingCartIcon />
-                    </Button>
+                    <CartWidget />
                 </Toolbar>
             </AppBar>
             <div className={classes.offset}></div>
