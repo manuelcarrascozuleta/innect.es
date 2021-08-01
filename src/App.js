@@ -15,8 +15,6 @@ function App() {
       <NavBar />
       <ItemListContainer greeting="Creamos Soluciones Digitales Eficaces"/>
     </ThemeProvider>
-    
-    
   );
 }
 
