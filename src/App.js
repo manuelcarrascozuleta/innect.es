@@ -11,10 +11,29 @@ import ItemListContainer from './components/ItemListContainer.js';
 function App() {
 
   return (
+< ramaClase4
     <ThemeProvider  theme ={theme}>
       <NavBar />
       <ItemListContainer greeting="Creamos Soluciones Digitales Eficaces"/>
     </ThemeProvider>
+
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Proyecto innect primer clase
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+> main
   );
 }
 
