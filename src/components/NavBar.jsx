@@ -18,7 +18,7 @@ const useStyle = makeStyles(theme => ({
         marginRight: 10
     }
 }))
-
+s
 function NavBar() {
     const classes = useStyle()
     return (
